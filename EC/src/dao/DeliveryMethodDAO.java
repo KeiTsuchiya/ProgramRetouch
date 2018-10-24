@@ -43,6 +43,8 @@ public class DeliveryMethodDAO {
 			System.out.println("searching all DeliveryMethodDataBeans has been completed");
 
 			return deliveryMethodDataBeansList;
+
+
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 			throw new SQLException(e);

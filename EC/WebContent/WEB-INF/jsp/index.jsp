@@ -31,6 +31,9 @@
 			<h5 class=" col s12 light">おすすめ商品</h5>
 		</div>
 		<div class="section">
+
+
+
 			<!--   おすすめ商品   -->
 			<div class="row">
 				<c:forEach var="item" items="${itemList}">
@@ -47,6 +50,10 @@
 					</div>
 				</div>
 				</c:forEach>
+
+
+
+
 			</div>
 		</div>
 	</div>
